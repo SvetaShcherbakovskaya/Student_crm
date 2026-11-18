@@ -2,7 +2,8 @@ function StatusBadge({isActive}) {
     return (
         <span
             className={`status-badge ${
-                isActive ? "status-badge--active" : "status-badge--paused"
+                isActive ? "status-badge--active" 
+                    : "status-badge--paused"
             }`}
         >
       {isActive ? "Активен" : "Пауза"}
